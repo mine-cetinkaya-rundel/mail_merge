@@ -3,7 +3,6 @@ output: pdf_document
 ---
 
 ```{r echo=FALSE}
-personalized_info <- read.csv("meeting_times.csv", stringsAsFactors = FALSE)
 name <- personalized_info$name[i]
 time <- personalized_info$meeting_time[i]
 ```
